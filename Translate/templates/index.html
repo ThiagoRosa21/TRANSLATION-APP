@@ -12,10 +12,23 @@
         <textarea id="text" name="text" rows="5" cols="50" required></textarea><br><br>
 
         <label for="source_language">Idioma de origem:</label>
-        <input id="source_language" name="source_language" type="text" placeholder="ex: en" required><br><br>
+        <select id="source_language" name="source_language" required>
+            <option value="auto" selected>Detectar automaticamente</option>
+            <option value="en">Inglês</option>
+            <option value="pt">Português</option>
+            <option value="es">Espanhol</option>
+            <option value="fr">Francês</option>
+            <option value="de">Alemão</option>
+        </select><br><br>
 
         <label for="target_language">Idioma de destino:</label>
-        <input id="target_language" name="target_language" type="text" placeholder="ex: pt" required><br><br>
+        <select id="target_language" name="target_language" required>
+            <option value="pt" selected>Português</option>
+            <option value="en">Inglês</option>
+            <option value="es">Espanhol</option>
+            <option value="fr">Francês</option>
+            <option value="de">Alemão</option>
+        </select><br><br>
 
         <button type="submit">Traduzir</button>
     </form>
