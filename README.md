@@ -13,17 +13,17 @@
 This project is a simple web application built in Python using the Flask framework. The application allows users to translate text from one language to another using the Google Translation API. It's an excellent resource for learning about REST APIs and web development basics.
    </strong>
 </p>
----
+
 ## **Features**
 - 🌎 **Translate Text**: Convert text from a source language to a target language.
 - 🔍 **Customizable**: Supports input for any source and target language supported by Google Translate.
 - 🖥️ **Web Interface**: Easy-to-use interface for inputting text and viewing translations.
----
+
 ## **Technologies Used 💻**
 - **Flask**: A lightweight web framework for Python, used for handling routes and HTTP requests.
 - **Google Translation API**: Used to perform text translation between languages.
 - **HTML & CSS**: For building the web interface.
----
+
 ## **Getting Started**
 ### **Install Dependencies**
 Run the following command to install Flask and Requests in your environment:
